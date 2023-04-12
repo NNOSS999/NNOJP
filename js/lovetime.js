@@ -13,7 +13,7 @@ function lovetime() {
     var todayMinute = today.getMinutes()
     var todaySecond = today.getSeconds()
     // 修改这里时间即可 
-    var t1 = Date.UTC(2023, 02, 28, 18, 00, 00)
+    var t1 = Date.UTC(2023, 01, 28, 18, 00, 00)
     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
     var diff = t2 - t1
     var diffYears = Math.floor(diff / years)

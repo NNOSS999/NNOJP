@@ -560,7 +560,7 @@ li{
 /*-------------------- ABOUT PAGE CSS -------------------- */
 
 
-#about{
+/about.html{
     width: 100%;
     height: auto;
     display: none; /*ALL THE PAGES EXCEPT HOME SHOULD BE SET TO DISPLAY NONE*/
