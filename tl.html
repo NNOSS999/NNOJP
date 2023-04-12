@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="webthemez.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicons -->
+        <link href="img/favicon.png" rel="icon">
+        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+        <title>中文日语学习资料整合</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/main.css"> 
+        <link href="jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/font-icon.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        </head>
+<body>
+
+    <section id="Playlist" class="playlistList">
+        <div class="container">
+            <div class="section-header">
+                      <h2 class="wow fadeInDown animated">听力专区</h2>
+                      <p class="wow fadeInDown animated">在这里我们收录了所有相关的听力文件 <br> 您可以自由选择需要的文件进行播放和下载</p>
+                  </div>
+          <div class="row">  
+               <div id="jquery_jplayer_2" class="jp-jplayer"></div>
+      <div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
+          <div class="jp-type-playlist">
+              <div class="jp-gui jp-interface">
+                  <div class="jp-volume-controls">
+                      <button class="jp-mute" role="button" tabindex="0">mute</button>
+                      <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                      <div class="jp-volume-bar">
+                          <div class="jp-volume-bar-value"></div>
+                      </div>
+                  </div>
+                  <div class="jp-controls-holder">
+                      <div class="jp-controls">
+                          <button class="jp-previous" role="button" tabindex="0">previous</button>
+                          <button class="jp-play" role="button" tabindex="0">play</button>
+                          <button class="jp-stop" role="button" tabindex="0">stop</button>
+                          <button class="jp-next" role="button" tabindex="0">next</button>
+                      </div>
+                      <div class="jp-progress">
+                          <div class="jp-seek-bar">
+                              <div class="jp-play-bar"></div>
+                          </div>
+                      </div>
+                      <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                      <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                      <div class="jp-toggles">
+                          <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                          <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="jp-playlist">
+                  <ul>
+                      <li>&nbsp;</li>
+                  </ul>
+              </div>
+              <div class="jp-no-solution">
+                  <span>Update Required</span>
+                  To play the media you will need to either update your browser to a recent version or update your Flash plugin.
+              </div>
+          </div>
+      </div>	
+           </div>
+      </section>	 
+      
+      
+      <!-- JS FILES --> 
+      <script src="js/jquery.min1.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/jquery.flexslider-min.js"></script> 
+      <script src="js/jquery.fancybox.pack.js"></script> 
+      <script src="js/retina.min.js"></script> 
+      <script src="js/modernizr.js"></script> 
+      <script src="js/main.js"></script> 
+      <script type="text/javascript" src="js/jquery.contact.js"></script> 
+      
+      <script type="text/javascript" src="jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
+      <script type="text/javascript" src="jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js"></script> 
+      <script type="text/javascript">
+      //<![CDATA[
+      $(document).ready(function(){
+       
+          new jPlayerPlaylist({
+              jPlayer: "#jquery_jplayer_2",
+              cssSelectorAncestor: "#jp_container_2"
+          }, [
+              {
+                  title:"EJU日语听力平成14【2002】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成14年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成15【2003】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成15年第一回.mp3"
+              },
+              
+              {
+                  title:"EJU日语听力平成16【2004】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成16年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成17【2005】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成17年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成18【2006】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成18年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成19【2007】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成19年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成20【2008】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成20年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成21【2009】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成21年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成22【2010】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成22年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成23【2011】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成23年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成24【2012】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成24年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成25【2013】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成25年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成26【2014】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成26年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成27【2015】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成27年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成28【2016】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成28年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成29【2017】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成29年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成30【2018】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成30年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成31【2019】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/平成31年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成14【2002】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成14年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成15【2003】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成15年第二回.mp3"
+              },
+              
+              {
+                  title:"EJU日语听力平成16【2004】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成16年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成17【2005】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成17年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成18【2006】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成18年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成19【2007】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成19年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成20【2008】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成20年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成21【2009】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成21年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成22【2010】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成22年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成23【2011】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成23年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成24【2012】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成24年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成25【2013】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成25年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成26【2014】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成26年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成27【2015】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成27年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成28【2016】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成28年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成29【2017】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成29年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力平成30【2018】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/平成30年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力令和2【2020】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/令和2年第二回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力令和3【2021】年第一回",
+                  free:true,
+                  mp3:"audio/EJU/令和3年第一回.mp3"
+              },
+
+              {
+                  title:"EJU日语听力令和3【2021】年第二回",
+                  free:true,
+                  mp3:"audio/EJU/令和3年第二回.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1992年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1992年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1993年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1993年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1994年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1994年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1995年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1995年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1996年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1996年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1997年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1997年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1998年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1998年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-1999年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/1999年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2000年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2000年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2001年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2001年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2002年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2002年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2003年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2003年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2004年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2004年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2005年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2005年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2006年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2006年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2007年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2007年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2008年N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2008年1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2009年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2009年7月1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2010年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2010年7月1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2011年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2011年7月1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2012年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2012年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2013年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2013年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2014年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2014年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2015年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2015年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2016年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2016年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2017年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2017年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2018年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2018年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2019年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2019年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2021年7月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2021年7月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2009年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2009年12月1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2010年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2010年12月1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2011年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/2011年12月1级真题.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2012年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2012年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2013年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2013年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2014年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2014年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2015年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2015年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2016年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2016年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2017年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2017年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2018年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2018年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2019年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2019年12月N1.mp3"
+              },
+              
+              {
+                  title:"JLPT听力-2020年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2020年12月N1.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2021年12月N1",
+                  free:true,
+                  mp3:"audio/JLPT/N1/听力 2021年12月N1.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1991年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1991年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1992年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1992年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1993年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1993年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1994年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1994年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1995年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1995年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1996年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1996年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1997年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1997年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1998年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1998年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-1999年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/1999年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2000年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2000年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2001年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2001年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2002年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2002年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2003年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2003年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2004年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2004年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2005年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2005年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2006年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2006年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2007年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2007年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2008年N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/2008年2级真题.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2009年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2009年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2010年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2010年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2011年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2011年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2012年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2012年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2013年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2013年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2014年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2014年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2015年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2015年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2016年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2016年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2017年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2017年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2018年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2018年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2019年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2019年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2021年7月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2021年7月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2010年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2010年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2011年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2011年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2012年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2012年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2013年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2013年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2014年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2014年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2015年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2015年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2016年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2016年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2017年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2017年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2018年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2018年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2019年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2019年12月N2.mp3"
+              },
+                            
+              {
+                  title:"JLPT听力-2020年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2020年12月N2.mp3"
+              },
+                                           
+              {
+                  title:"JLPT听力-2021年12月N2",
+                  free:true,
+                  mp3:"audio/JLPT/N2/听力 2021年12月N2.mp3"
+              },
+
+
+
+
+
+          ], {
+              swfPath: "../../dist/jplayer",
+              supplied: "oga, mp3",
+              wmode: "window",
+              useStateClassSkin: true,
+              autoBlur: false,
+              smoothPlayBar: true,
+              keyEnabled: true
+          });
+      });
+      //]]>
+      </script>
+      
+       <!--==========================
+          Footer
+        ============================-->
+          <div class="container">
+            <div class="section-header">
+              &copy; 版權所有 <strong>N2O PRODUCTIONS OFFICIAL</strong>. All Rights Reserved
+            </div>
+            <div class="section-header"> 
+              主站  <a href="https://www.nnoss.tk/" target="_blank" title="N2O PRODUCTIONS OFFICIAL">N2O PRODUCTIONS OFFICIAL</a>
+               - Designed by <a href="https://www.nnoss.tk/" title="N2O PRODUCTIONS" target="_blank">N2O PRODUCTIONS</a>
+            </div>
+            <div class="section-header"> 
+                爱♥  <a href="/love.html" target="_blank" title="N2O PRODUCTIONS OFFICIAL">雨欣小宝贝</a>
+              </div>
+          </div>
+      
+      
+</body>
+</html>
